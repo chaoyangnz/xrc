@@ -15,4 +15,5 @@ stty -a
 - update terminal shortcut
 
 Ctrl + Shift + C -> Ctrl + C
+
 Ctrl + Shift + V -> Ctrl + V
