@@ -12,7 +12,7 @@ antigen bundle command-not-found
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
-antigen theme https://github.com/chaoyangnz/xrc.git zsh/themes/pro
+antigen theme https://github.com/chaoyangnz/xrc.git pro
 
 # Tell Antigen that you're done.
 antigen apply
