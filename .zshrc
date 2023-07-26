@@ -1,4 +1,16 @@
-source /usr/share/zsh-antigen/antigen.zsh
+case "$(uname -s)" in
+    Linux*)     os=linux;;
+    Darwin*)    os=osx;;
+    *)          os=""
+esac
+
+if [ "$os" -eq "linux" ]; then
+  antigent=/usr/share/zsh-antigen/antigen.zsh
+else
+  antigent=/opt/homebrew/share/antigen/antigen.zsh
+fi
+
+source $antigen
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
